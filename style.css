@@ -1,0 +1,93 @@
+body {
+    display : flex;
+    flex-direction : column;
+    align-items: stretch;
+    margin: 0px;
+    font-family: Roboto, "Times New Roman";
+}
+
+/* Header CSS */
+
+/* Included this header background because I want the margins to scale properly if
+there is space - so additional space allows for additional margins*/
+.header-background {
+    background-color: #1F2937;
+    color : #F9FAF8;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.header {
+    display: flex;
+    flex-direction : column;
+    max-width: 1200px;
+    padding-top : 10px;
+    padding-bottom: 80px;
+    padding-left : 10px;
+    padding-right : 10px;
+    gap : 80px;
+}
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.header ul {
+    font-size: 18px;
+    list-style : none;
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.header a {
+    text-decoration : none;
+    color : #E5E7EB;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    gap : 50px;
+}
+
+.header-content {
+    display : flex;
+    flex-direction : column;
+    flex-wrap : wrap;
+    gap : 5px;
+    font-size : 18px;
+    color : #E5E7EB;
+}
+
+.header-main-text {
+    font-size : 48px;
+    font-weight : bolder;
+}
+
+.img-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width : 400px;
+    min-height : 200px;
+    background-color: grey;
+}
+
+button {
+    width : 80px;
+    padding : 4px;
+    border-radius : 6px;
+    border : none;
+    background-color: #3882F6;
+    color : #E5E7EB;
+}
