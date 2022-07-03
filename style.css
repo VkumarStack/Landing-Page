@@ -1,6 +1,7 @@
 body {
     display : flex;
     flex-direction : column;
+    justify-content: center;
     align-items: stretch;
     margin: 0px;
     font-family: Roboto, "Times New Roman";
@@ -8,24 +9,18 @@ body {
 
 /* Header CSS */
 
-/* Included this header background because I want the margins to scale properly if
-there is space - so additional space allows for additional margins*/
-.header-background {
+
+.header {
     background-color: #1F2937;
     color : #F9FAF8;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-.header {
-    display: flex;
     flex-direction : column;
-    max-width: 1200px;
+    justify-content: center;
+    align-items: stretch;
     padding-top : 10px;
     padding-bottom: 80px;
-    padding-left : 10px;
-    padding-right : 10px;
+    padding-left : 50px;
+    padding-right : 50px;
     gap : 80px;
 }
 
@@ -56,7 +51,7 @@ there is space - so additional space allows for additional margins*/
 
 .hero {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     gap : 50px;
 }
 
@@ -78,9 +73,10 @@ there is space - so additional space allows for additional margins*/
     display: flex;
     justify-content: center;
     align-items: center;
-    min-width : 400px;
-    min-height : 200px;
+    text-align: center;
     background-color: grey;
+    flex-basis : 500px;
+    min-height : 200px;
 }
 
 button {
