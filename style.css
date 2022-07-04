@@ -134,3 +134,29 @@ button {
     border-radius : 10px;
 }
 
+.quote-section {
+    display : flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding-top : 100px;
+    padding-bottom : 100px;
+    color : #1F2937;
+}
+
+.quote {
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 36px;
+    font-style: oblique;
+    max-width : 700px;
+}
+
+.author {
+    font-size : 24px;
+    font-weight : bolder;
+    text-align : end;
+}
